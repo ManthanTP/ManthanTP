@@ -48,6 +48,11 @@
 
 <br/>
 
+<!-- ── COMMIT LOG & ACTIVITY ── -->
+<img src="assets/manthan-activity.svg" alt="Commit Log — A year of building, one square at a time" width="100%" />
+
+<br/>
+
 <!-- ── STATS ── -->
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ManthanTP&show_icons=true&hide_border=true&bg_color=07070D&title_color=7C3AED&icon_color=22D3EE&text_color=A78BFA&ring_color=7C3AED" alt="GitHub Stats" height="180" />
@@ -55,11 +60,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ManthanTP&layout=compact&hide_border=true&bg_color=07070D&title_color=7C3AED&text_color=A78BFA" alt="Top Languages" height="180" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ManthanTP&bg_color=07070D&color=A78BFA&line=7C3AED&point=22D3EE&area_color=7C3AED&area=true&hide_border=true" alt="Activity Graph" width="95%" />
-</p>
-
 <br/>
 
 <!-- ── FOOTER ── -->
 <img src="assets/manthan-footer.svg" alt="Build with intent · Ship for real" width="100%" />
+
