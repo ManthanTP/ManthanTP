@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" role="img" aria-label="About Section — Manthan Patel">
+  <defs>
+    <linearGradient id="about-bg-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07070D"/>
+      <stop offset="100%" stop-color="#0E0E1A"/>
+    </linearGradient>
+    <linearGradient id="about-term-top" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0E0E1A"/>
+      <stop offset="100%" stop-color="#12121F"/>
+    </linearGradient>
+    <linearGradient id="about-border-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="about-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#A78BFA" stroke-opacity="0.03" stroke-width="0.5"/>
+    </pattern>
+    <radialGradient id="about-glow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" fill="url(#about-bg-grad)" rx="16"/>
+  <rect width="1200" height="520" fill="url(#about-grid)" rx="16"/>
+  <rect width="1200" height="520" fill="url(#about-glow)" rx="16"/>
+
+  <!-- Section tag -->
+  <text x="60" y="52" font-family="'Courier New', monospace" font-size="11" fill="#22D3EE" letter-spacing="3" opacity="0.7">01 · ABOUT</text>
+
+  <!-- Serif heading -->
+  <text x="60" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#F4F4FA">Hello, I'm Manthan.</text>
+
+  <!-- Terminal window -->
+  <rect x="60" y="130" width="1080" height="360" rx="12" fill="#0A0A14" stroke="url(#about-border-grad)" stroke-width="1"/>
+  
+  <!-- Title bar -->
+  <rect x="60" y="130" width="1080" height="38" rx="12" fill="url(#about-term-top)"/>
+  <rect x="60" y="156" width="1080" height="12" fill="url(#about-term-top)"/>
+  <!-- Three dots -->
+  <circle cx="84" cy="149" r="5" fill="#EF4444" opacity="0.7"/>
+  <circle cx="102" cy="149" r="5" fill="#F59E0B" opacity="0.7"/>
+  <circle cx="120" cy="149" r="5" fill="#22C55E" opacity="0.7"/>
+  <!-- Title bar text -->
+  <text x="600" y="153" font-family="'Courier New', monospace" font-size="11" fill="#A78BFA" text-anchor="middle" opacity="0.5">manthan@dev ~</text>
+
+  <!-- Terminal content -->
+  <!-- whoami -->
+  <text x="88" y="198" font-family="'Courier New', monospace" font-size="13" fill="#22D3EE">❯</text>
+  <text x="108" y="198" font-family="'Courier New', monospace" font-size="13" fill="#A78BFA">whoami</text>
+  <text x="88" y="222" font-family="'Courier New', monospace" font-size="13" fill="#F4F4FA" opacity="0.85">Manthan Patel — Full-Stack Developer, AI Builder, Product Thinker</text>
+
+  <!-- cat education.txt -->
+  <text x="88" y="258" font-family="'Courier New', monospace" font-size="13" fill="#22D3EE">❯</text>
+  <text x="108" y="258" font-family="'Courier New', monospace" font-size="13" fill="#A78BFA">cat education.txt</text>
+  <text x="88" y="282" font-family="'Courier New', monospace" font-size="13" fill="#F4F4FA" opacity="0.85">Final-year student at Jain College of Engineering (VTU), India</text>
+
+  <!-- cat focus.txt -->
+  <text x="88" y="318" font-family="'Courier New', monospace" font-size="13" fill="#22D3EE">❯</text>
+  <text x="108" y="318" font-family="'Courier New', monospace" font-size="13" fill="#A78BFA">cat focus.txt</text>
+  <text x="88" y="342" font-family="'Courier New', monospace" font-size="13" fill="#F4F4FA" opacity="0.85">Building real products with React, TypeScript, Supabase, and AI integrations.</text>
+  <text x="88" y="362" font-family="'Courier New', monospace" font-size="13" fill="#F4F4FA" opacity="0.85">Shipping full-stack apps — from database design to mobile APK.</text>
+
+  <!-- ls projects/ -->
+  <text x="88" y="398" font-family="'Courier New', monospace" font-size="13" fill="#22D3EE">❯</text>
+  <text x="108" y="398" font-family="'Courier New', monospace" font-size="13" fill="#A78BFA">ls projects/</text>
+  <text x="88" y="422" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED">InstitutePulse/</text>
+  <text x="268" y="422" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED">PocketLedger/</text>
+  <text x="432" y="422" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED">GenCodeLeague/</text>
+  <text x="612" y="422" font-family="'Courier New', monospace" font-size="13" fill="#7C3AED">Portfolio/</text>
+
+  <!-- Blinking cursor -->
+  <text x="88" y="458" font-family="'Courier New', monospace" font-size="13" fill="#22D3EE">❯</text>
+  <rect x="108" y="446" width="8" height="16" fill="#22D3EE" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

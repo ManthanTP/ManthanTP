@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" role="img" aria-label="Tech Stack — Manthan Patel">
+  <defs>
+    <linearGradient id="stack-bg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07070D"/>
+      <stop offset="100%" stop-color="#0E0E1A"/>
+    </linearGradient>
+    <linearGradient id="stack-card-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="stack-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#A78BFA" stroke-opacity="0.03" stroke-width="0.5"/>
+    </pattern>
+    <radialGradient id="stack-glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stack-accent-fe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="stack-accent-ui" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="stack-accent-be" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="stack-accent-ai" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="stack-accent-mob" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="stack-accent-dep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="520" fill="url(#stack-bg-grad)" rx="16"/>
+  <rect width="1200" height="520" fill="url(#stack-grid)" rx="16"/>
+  <rect width="1200" height="520" fill="url(#stack-glow)" rx="16"/>
+
+  <!-- Section tag -->
+  <text x="60" y="50" font-family="'Courier New', monospace" font-size="11" fill="#22D3EE" letter-spacing="3" opacity="0.7">03 · STACK</text>
+
+  <!-- Heading -->
+  <text x="60" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#F4F4FA">Tools I reach for.</text>
+
+  <!-- Row 1 -->
+  <!-- Card 1: Frontend -->
+  <g transform="translate(60, 135)">
+    <rect x="0" y="0" width="350" height="155" rx="12" fill="#0A0A14" stroke="url(#stack-card-border)" stroke-width="1"/>
+    <rect x="0" y="0" width="350" height="3" rx="1.5" fill="url(#stack-accent-fe)"/>
+    <text x="20" y="32" font-family="'Courier New', monospace" font-size="10" fill="#7C3AED" letter-spacing="2" opacity="0.7">FRONTEND</text>
+    <text x="20" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">React 19</text>
+    <text x="130" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA" opacity="0.5">·</text>
+    <text x="148" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">TypeScript</text>
+    <text x="20" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">JavaScript</text>
+    <text x="160" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA" opacity="0.5">·</text>
+    <text x="178" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">HTML</text>
+    <text x="20" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">React Router</text>
+    <text x="170" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA" opacity="0.5">·</text>
+    <text x="188" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Vite</text>
+    <text x="20" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Zustand</text>
+  </g>
+
+  <!-- Card 2: Motion & UI -->
+  <g transform="translate(425, 135)">
+    <rect x="0" y="0" width="350" height="155" rx="12" fill="#0A0A14" stroke="url(#stack-card-border)" stroke-width="1"/>
+    <rect x="0" y="0" width="350" height="3" rx="1.5" fill="url(#stack-accent-ui)"/>
+    <text x="20" y="32" font-family="'Courier New', monospace" font-size="10" fill="#22D3EE" letter-spacing="2" opacity="0.7">MOTION &amp; UI</text>
+    <text x="20" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Framer Motion</text>
+    <text x="20" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Tailwind CSS</text>
+    <text x="20" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Recharts</text>
+    <text x="20" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Lucide Icons</text>
+  </g>
+
+  <!-- Card 3: Backend & Data -->
+  <g transform="translate(790, 135)">
+    <rect x="0" y="0" width="350" height="155" rx="12" fill="#0A0A14" stroke="url(#stack-card-border)" stroke-width="1"/>
+    <rect x="0" y="0" width="350" height="3" rx="1.5" fill="url(#stack-accent-be)"/>
+    <text x="20" y="32" font-family="'Courier New', monospace" font-size="10" fill="#A78BFA" letter-spacing="2" opacity="0.7">BACKEND &amp; DATA</text>
+    <text x="20" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Supabase</text>
+    <text x="20" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">PostgreSQL</text>
+    <text x="20" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Row-Level Security</text>
+    <text x="20" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Supabase Auth</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Card 4: AI -->
+  <g transform="translate(60, 310)">
+    <rect x="0" y="0" width="350" height="155" rx="12" fill="#0A0A14" stroke="url(#stack-card-border)" stroke-width="1"/>
+    <rect x="0" y="0" width="350" height="3" rx="1.5" fill="url(#stack-accent-ai)"/>
+    <text x="20" y="32" font-family="'Courier New', monospace" font-size="10" fill="#F59E0B" letter-spacing="2" opacity="0.7">AI</text>
+    <text x="20" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Google Gemini API</text>
+    <text x="20" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">AI Chatbot</text>
+    <text x="20" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">AI Study Planner</text>
+    <text x="20" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">AI Lab Assistant</text>
+  </g>
+
+  <!-- Card 5: Mobile -->
+  <g transform="translate(425, 310)">
+    <rect x="0" y="0" width="350" height="155" rx="12" fill="#0A0A14" stroke="url(#stack-card-border)" stroke-width="1"/>
+    <rect x="0" y="0" width="350" height="3" rx="1.5" fill="url(#stack-accent-mob)"/>
+    <text x="20" y="32" font-family="'Courier New', monospace" font-size="10" fill="#22D3EE" letter-spacing="2" opacity="0.7">MOBILE</text>
+    <text x="20" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Capacitor</text>
+    <text x="20" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Android APK</text>
+    <text x="20" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Mobile-First Design</text>
+    <text x="20" y="142" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Responsive Layout</text>
+  </g>
+
+  <!-- Card 6: Deploy -->
+  <g transform="translate(790, 310)">
+    <rect x="0" y="0" width="350" height="155" rx="12" fill="#0A0A14" stroke="url(#stack-card-border)" stroke-width="1"/>
+    <rect x="0" y="0" width="350" height="3" rx="1.5" fill="url(#stack-accent-dep)"/>
+    <text x="20" y="32" font-family="'Courier New', monospace" font-size="10" fill="#7C3AED" letter-spacing="2" opacity="0.7">DEPLOY</text>
+    <text x="20" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Vercel</text>
+    <text x="20" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">Git / GitHub</text>
+    <text x="20" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#F4F4FA">npm</text>
+  </g>
+</svg>
